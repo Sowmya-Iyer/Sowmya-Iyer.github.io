@@ -41,7 +41,7 @@ html {
 
 .nav-link {
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.8) !important;
+  color: #ad5a37 !important;
 }
 
 .social-nav .nav-link {
@@ -53,7 +53,7 @@ html {
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
-  color: rgba(75, 3, 244, 0.463) !important;
+  color: rgba(253, 214, 17, 0.855) !important;
 }
 
 /* Hero (intro) section */
@@ -61,7 +61,7 @@ html {
   font-weight: 800;
 }
 
-@-webkit-keyframes animateWave {
+/* @-webkit-keyframes animateWave {
   0% {
     transform: scale(1, 0);
   }
@@ -90,7 +90,7 @@ html {
   background-image: url("../images/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 img.avatar {
   border-radius: 30px;
@@ -364,7 +364,6 @@ footer a:not(.nav-link) {
 	position: relative;
 	/* font-size: 30px; */
 	/* color: #344055; */
-	margin: 0;
 }
 #container2 #code-images{
   text-align:center;
