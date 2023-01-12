@@ -38,8 +38,8 @@
               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
               <li class="nav-item"><a class="nav-link" href="#services">Specialisation</a></li>
               <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
               <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -57,7 +57,7 @@
           <div class="mt-5">
             <p class="lead text-uppercase mb-1">Hello!</p>
             <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Sowmya Jayaram Iyer</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Computer Vision and ML Engineer</p>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Machine Learning and Computer Vision Engineer</p>
             <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
               <nav role="navigation">
                 <ul class="nav justify-content-left">
@@ -82,7 +82,7 @@
     <div class="row">
       <div class="col-md-6">
         <h2 class="h4 my-2">Hello! I’m Sowmya Jayaram Iyer.</h2>
-        <p>I specialize in developing Deep learning, Computer Vision and Machine Learning algorithms. I aim to produce documented, reproducable code that is integratable into existing ecosystems and helpful towards the AI community. Currently pursuing Master's in Computer Science at Purdue University (2023). My current works are focussed around Transformer-based Visual Question Answering models and cloudML/ Deployable AI.</p>
+        <p>I specialize in developing Machine Learning, Deep learning, and Computer Vision algorithms. I aim to produce documented, reproducable code that is integratable into existing ecosystems and helpful towards the AI community. Currently pursuing Master's in Computer Science at Purdue University (2023). My current works are focussed around Transformer-based Visual Question Answering models and cloudML/ Deployable AI.</p>
         <div class="row mt-3">
           <!-- <div class="col-sm-2">
             <div class="pb-1">Age:</div>
@@ -137,7 +137,7 @@
     <div class="row py-3">
       <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/deep-learning(1).png" width="96" height="96" alt="Deep Learning Engineer"/>
         <div class="h5">Machine Learning</div>
-        <p> GANs | Transformers | Autoencoders | RNN | Adversarial Training | Neural Networks Architectures (CNN | GNN | BNN) | Transfer Learning | Gaussian Mixture Models</p>
+        <p> GANs | Transformers | Autoencoders | RNN | Adversarial Learning | Neural Networks Architectures (CNN | GNN | BNN) | Transfer Learning | Gaussian Mixture Models</p>
       </div>
       <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/vision.png" width="96" height="96" alt="Computer Vision Engineer"/>
         <div class="h5">Computer Vision</div>
@@ -243,7 +243,7 @@
           <div class="h5"><span class="me-auto">CLOUD</span></div>
           <div class="row py-1">
             <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><i class="cib-amazon-aws"></i>
-              <div class="h6">Amazon SageMaker</div>
+              <div class="h6">AWS (ECS, EKS)</div>
             </div>
             <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><i class="cib-docker"></i>
               <div class="h6">Docker</div>
@@ -288,7 +288,10 @@
           <div class="h5"><span class="me-auto">OTHERS</span></div>
           <div class="row py-1">
             <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><i class="cib-mysql"></i>
-              <div class="h6">SQL</div>
+              <div class="h6">MySQL</div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><i class="cib-mysql"></i>
+              <div class="h6">PostgreSQL</div>
             </div>
             <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><i class="cib-mongodb"></i>
               <div class="h6">MongoDB</div>
@@ -398,7 +401,50 @@
         </div>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1 text-white">T5 Transformer for Title generation</h3>
+                <div class="text-small text-white"><small>Natural Language Processing</small></div>
+              </div><img src="images/projects/black.png" width="48" height="48" alt="web"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <div id="code-images">
+              <img class="code-tag" src="https://img.shields.io/badge/python-3.7+-blue.svg" style="width:85px; height:20px;" alt=""/>
+              <img class="code-tag" src="https://img.shields.io/badge/pytorch-1.3.1-blue.svg" style="width:85px; height:20px;" alt=""/>
+            </div>
+            <img src="images/projects/t5.png" alt="qos" style="width:420px; height:300px; margin-bottom: 10px; margin-top: 10px;">
+            <p class> Conditional Generation for Text using T5 (text-to-text) transformer was used to generate a creative title based on context for the given Movie/ TV show description (1024 tokens). A dataset compiling Netflix, Amazon Prime, Hulu and Disney Plus Movies/ TV shows was created to fine-tune the conditional generative transformer. The model achieved a rougeLsum score of 24.9. The fine tuned model has been deployed in HuggingFace as a package and can be directly importd as a pre-trained model.  </p>
+          <div class="my-auto" style="margin-top: 1px;margin-bottom: 3px;"><a class="btn btn-primary shadow-sm mt-0" style=" padding: 0 rem 0 rem; line-height: .6; position:relative; top:1%; left:40%;"href="https://github.com/Sowmya-Iyer/T5-transformer-for-title-generation">CODE</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1 text-white">NamaSign: Indian Sign Language Alphabet Detection</h3>
+                <div class=" text-small text-white"><small>Deep Learning</small></div>
+              </div><img src="images/projects/black.png" width="48" height="48" alt="web"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <div id="code-images">
+              <img class="code-tag" src="https://img.shields.io/badge/python-3.7+-blue.svg" style="width:85px; height:20px;" alt=""/>
+              <img class="code-tag" src="https://img.shields.io/badge/tensorflow-2.11.0-orange.svg" style="width:110px; height:20px;" alt=""/>
+            </div>
+            <img src="images/projects/isl1.png" alt="CareerQuest" style="width:420px; height:300px; margin-bottom: 10px; margin-top: 10px;">
+            <p>Implemented image classification using VGG16 and Resnet18 (FastAI) on a cluttered ISL alphabet image dataset comprising different skin colors, backgrounds, and lighting conditions of ISL alphabets. Achieved 93.9% accuracy using VGG16 and 91.8% accuracy using Resnet18. Used this result to build a video-based ISL-spelling to text translation application which can bridge communication between the differently abled people with hearing difficulty and the abled.</p>
+          <div class="my-auto" style="margin-top: 1px;margin-bottom: 3px;"><a class="btn btn-primary shadow-sm mt-0" style=" padding: 0 rem 0 rem; line-height: .6; position:relative; top:1%; left:40%;"href="https://github.com/Sowmya-Iyer/Kaggle/blob/master/isl-image-classification-using-fastai.ipynb">CODE</a></div>
+          </div>
+        </div>
+      </div>
+  </div>
     <div class="row">
       <div class="col-md-6">
         <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
@@ -485,7 +531,7 @@
               <img class="code-tag" src="https://img.shields.io/badge/python-3.7+-blue.svg" style="width:85px; height:20px;" alt=""/>
               <img class="code-tag" src="https://img.shields.io/badge/pytorch-1.3.1-blue.svg" style="width:85px; height:20px;" alt=""/>
             </div>
-            <img src="images/projects/cq.png" alt="CareerQuest" style="width:420px; height:300px; margin-bottom: 10px; margin-top: 10px;">
+            <img src="images/projects/mmt.png" alt="CareerQuest" style="width:420px; height:300px; margin-bottom: 10px; margin-top: 10px;">
             <p>This project presents a comprehensive survey of Transformer techniques specifically geared towards multimodal data up until 2022. The contributions of this survey include giving:</p>
             <p>(1) a theoretical review of Multimodal learning, Transformers, Vision Transformers, and Multimodal Transformers,</p>
             <p>(2) a review of multimodal Transformers through the perspective of two important applications- specific multimodal tasks,</p>
@@ -551,6 +597,40 @@
   <div cslass="container-narrow">
     <div class="text-center mb-5">
       <h2 class="marker marker-center">Experience</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1 text-white">Machine Learning Engineer (Part-Time)</h3>
+                <div class=" text-small text-white">Kalyan Jewellers Pvt. Ltd. <small>(Dec 2022-Jan 2023)</small></div>
+              </div><img src="images/services/kalyan.png" width="48" height="48" alt="ai-ml"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p> Created a LightGBM based Jewellery purchase prediction model to promote EMI based Jewellery purchase scheme for Kalyan Jewellers' customers. LightGBM was initially trained on user features such as income, city, previous purchases etc. over a year to achieve an accuracy of 95%. In deployment, the model also updates this score based on every user activity such as a new purchase from any branch. On performing a t-test, the model is expected to increase jewellery purchase for the year 2023 by 15%. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+            <div class="card-header px-3 py-2">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h3 class="h5 mb-1 text-white">Machine Learning Engineer (Part-Time)</h3>
+                  <div class=" text-small text-white">KalyanMatrimony.com <small>(Dec 2021 - Jan 2023)</small></div>
+                </div><img src="images/services/kalyan.png" width="48" height="48" alt="ai-ml"/>
+              </div>
+            </div>
+            <div class="card-body px-3 py-2">
+              <p>Developed a website tool to generate creative bios with fine-tuned GPT2 based on the users' profile in English and mother tongue in collaboration with the technical team at KalyanMatrimony.com. The feature was integrated in the existing website by deploying the GPT-2 with Fast API using EC2 instance, launched and managed on Amazon Elastic Container Service with Auto Scaling. This feature was provided as a campaign to users to generate a summarized creative bio for their profiles. The feature resulted in a 20% increase in profile views for users evidently increasing customer satisfaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
       <div class="col-md-6">
