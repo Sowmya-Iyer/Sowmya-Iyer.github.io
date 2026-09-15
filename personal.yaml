@@ -1,0 +1,12 @@
+name: "Sowmya Jayaram Iyer"
+greeting: "Hello! I’m Sowmya Jayaram Iyer."
+about: "I specialize in developing production-ready Computer Vision, Machine Learning, and Deep Learning systems, with a focus on real-time perception, 3D vision, and edge AI. I enjoy transforming research and prototypes into efficient, well-documented, and maintainable software that integrates seamlessly into larger systems.
+
+My work spans object detection, stereo depth estimation, visual localization, sensor integration, and optimized AI inference using technologies such as C++, CUDA, TensorRT, PyTorch, and OpenCV. I am particularly interested in building robust perception systems that bridge computer vision research with real-world autonomous and intelligent systems.
+
+I hold an M.S. in Computer Science from Purdue University.
+
+My current works are focussed around multi-modal Transformer models and  Deployable AI."
+personal_email: "sowmya.iyer2020@gmail.com"
+location: "Indianapolis, Indiana, USA"
+status: "Available"
